@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ping Pong Score Board</title>
+</head>
+<body>
+    <h1>Score Board</h1>
+    <div>
+        <h2 id="player1score">0</h2>
+        <button id="player1btn">Player 1</button>
+    </div>
+
+    <div>
+        <h2 id="player2score">0</h2>
+        <button id="player2btn">Player 2</button>
+    </div>
+
+    <form>
+        <label for="maxscore">Playing To:</label>
+        <select id="maxscore" name="maxscore">
+            <option value="6">6</option>
+            <option value="8">8</option>
+            <option value="10">10</option>
+            <option value="12">12</option>
+          </select>
+    </form>
+
+    <button id="reset">Reset</button>
+
+    <script src="./script.js"></script>
+</body>
+</html>
